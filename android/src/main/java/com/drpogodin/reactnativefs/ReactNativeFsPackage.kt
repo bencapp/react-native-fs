@@ -24,6 +24,7 @@ class ReactNativeFsPackage : BaseReactPackage() {
         ReactNativeFsModule.NAME,
         canOverrideExistingModule = false,  // canOverrideExistingModule
         needsEagerInit = false,  // needsEagerInit
+        hasConstants = true, // hasConstants
         isCxxModule = false,  // isCxxModule
         isTurboModule = true // isTurboModule
       )
